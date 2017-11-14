@@ -1,5 +1,5 @@
 {
-  "ClusterStackName": "akka-clusters",
+  "ClusterStackName": "demo-ecs-cluster",
   "Path": "my-theatre",
   "AppName": "theatre-example",
   "Priority": "900",

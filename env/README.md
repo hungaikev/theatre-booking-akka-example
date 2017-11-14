@@ -1,7 +1,7 @@
 # AWS EC2 Container Service (ECS) deployment #
 
 ## Pre-requisites ##
-- An ECS cluster 
+- An [ECS cluster](https://github.com/LoyaltyOne/ecs-cluster-akka) 
 - [Docker-Mirror](https://github.com/LoyaltyOne/docker-mirror) running on every single EC2 container instance belonging 
 to the cluster
 - [Application Load Balancer](http://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html)
