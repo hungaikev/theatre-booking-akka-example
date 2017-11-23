@@ -8,6 +8,9 @@ to the cluster
 - [Access](https://github.com/LoyaltyOne/bazooka) to a [ZooKeeper ensemble](https://zookeeper.apache.org)
 - [ecs-service](https://github.com/ukayani/ecs-service)
 
+### A note on ECS Service ###
+`ecs-service` is used to isolate the environment from the application. We extract the environment variables into `.env` files so we can have versatile deployments (deploy to many different environments like dev, staging, prod).
+
 ## Deployment ##
 In the `dev.params.json` file, we have specified the target ECS cluster. The `service.json` describes how to deploy
 this application as an ECS Service and also route traffic to the service via the Application Load Balancer. 
